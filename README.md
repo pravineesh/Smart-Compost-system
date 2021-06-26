@@ -1,2 +1,3 @@
 # Smart-Compost-system
-A new technology to monitor composting system and increase the speed of composting process
+A new technology to monitor and increase the speed of composting process.
+Initially, food waste is collected and stored in a container to kick start composting process by the conventional method of composting. After 2 weeks it is moved to smart compost system. Smart compost system sends real-time Temperature, humidity, soil moisture, and methane gas emission to a web page and can be accessed using a Smartphone or computer through any web browser. A mixer-shaft is provided for mixing the compost which also increases the oxygen flow in the system. The temperature and soil moisture of the compost is controlled automatically by adding water, brown waste, opening and closing the upper shutter. Mixer-shaft, water pump, the upper shutter can also be operated manually through the web page.
