@@ -1,0 +1,32 @@
+------------------------
+
+*Setting up virtual enviornment
+pinp install virtualenv
+virtualenv env		# goto env folder
+
+if getting error while running above commands use this beow code
+Set-ExecutionPolicy unrestricted		#change execcution poly (open power shel as administretor -> run same command -> give Y
+)
+
+.\env\Scripts\activate.ps1	#activate virtual env, (.ps1 => open in power shell), now all activities are run in this env
+pip install flask	# install ing flask inside  virtual env
+
+=> 
+we can add multiple terminals in vscode
+open 2 terminals
+1) install packages 
+2) run apps
+
+---
+creating data base
+pip install flask-sqlalchemy	# sqlalchemy is used to make changes in database
+
+
+to create db 
+in terminal type => python (going to python intertpreter)
+from app import db
+db.create_all()
+
+after creating to exit from it => exit()
+
+now open sql light viewer(browser)
